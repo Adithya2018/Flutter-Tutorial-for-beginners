@@ -1,2 +1,2 @@
 # Flutter Tutorial for beginners
- In this Flutter tutorial for Beginners series, I'll show you how to use Flutter (and Dart) to create Android and iOS apps from scratch. We'll learn all about widgets, packages, assets & asynchronous code to create a World Time app, as well as 2 other mini apps to put your Flutter skills to good use! (This is a tutorial by The Net Ninja that I have been planning to do)
+This is a flutter tutorial for beginners by The Net Ninja (YouTuber). I will be posting all that I learn there here.
