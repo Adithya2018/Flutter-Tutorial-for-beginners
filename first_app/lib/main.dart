@@ -27,12 +27,19 @@ class Home extends StatelessWidget {
         //   child: Text('Press Hard'),
         //   color: Colors.lightGreen[200],
         // ),
-        child: RaisedButton.icon(
-          onPressed: () {},
-          icon: Icon(
-            Icons.mail
-          ),
-          label: Text('Mail me'),
+        // child: RaisedButton.icon(
+        //   onPressed: () {},
+        //   icon: Icon(
+        //     Icons.mail
+        //   ),
+        //   label: Text('Mail me'),
+        //   color: Colors.pink[200],
+        // ),
+        child: IconButton(
+          onPressed: () {
+            print('mail');
+          },
+          icon: Icon(Icons.alternate_email),
           color: Colors.pink[200],
         ),
       ),
