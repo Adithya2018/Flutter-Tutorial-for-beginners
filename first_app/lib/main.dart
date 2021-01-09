@@ -29,6 +29,7 @@ class Home extends StatelessWidget {
         onPressed: () {},
         child: Text('Add'),
         backgroundColor: Colors.red[400],
+        splashColor: Colors.orange[300],
 
       ),
     );
