@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-
+  home: Home(),
 ));
 
 class Home extends StatelessWidget {
@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Text('+'),
+        child: Text('Add'),
         backgroundColor: Colors.red[400],
 
       ),
