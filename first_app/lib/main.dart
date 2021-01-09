@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
         //   color: Colors.red[200],
         //   size: 250,
         // ),
-        child: RaisedButton(
+        child: FlatButton(
           onPressed: () {},
           child: Text('Press Hard'),
           color: Colors.lightGreen[200],
