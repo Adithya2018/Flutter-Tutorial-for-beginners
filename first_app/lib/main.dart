@@ -28,7 +28,7 @@ void main() => runApp(MaterialApp(
   ),
 ));
 
-class  extends StatelessWidget {
+class test extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container();
