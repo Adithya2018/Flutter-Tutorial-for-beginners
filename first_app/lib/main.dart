@@ -9,13 +9,13 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Not my First'),
+        title: Text('Not my First 😉'),
         centerTitle: true,
         backgroundColor: Colors.green[400],
       ),
       body: Center(
         child: Text(
-          'Hello People!!!',
+          'Hello People',
           style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.bold,
