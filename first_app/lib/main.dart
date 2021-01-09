@@ -27,7 +27,14 @@ class Home extends StatelessWidget {
         //   child: Text('Press Hard'),
         //   color: Colors.lightGreen[200],
         // ),
-        child: ,
+        child: RaisedButton.icon(
+          onPressed: () {},
+          icon: Icon(
+            Icons.mail
+          ),
+          label: Text('Mail me'),
+          color: Colors.pink[200],
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
