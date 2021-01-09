@@ -20,13 +20,14 @@ class Home extends StatelessWidget {
         //   color: Colors.red[200],
         //   size: 250,
         // ),
-        child: RaisedButton(
-          onPressed: () {
-            print('Oh you clicked Hard!');
-          },
-          child: Text('Press Hard'),
-          color: Colors.lightGreen[200],
-        ),
+        // child: FlatButton(
+        //   onPressed: () {
+        //     print('Oh you clicked Hard!');
+        //   },
+        //   child: Text('Press Hard'),
+        //   color: Colors.lightGreen[200],
+        // ),
+        child: ,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
