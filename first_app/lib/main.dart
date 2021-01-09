@@ -8,12 +8,21 @@ void main() => runApp(MaterialApp(
       backgroundColor: Colors.green[400],
     ),
     body: Center(
-      child: Text('Hello People!!!'),
+      child: Text(
+        'Hello People!!!',
+        style: TextStyle(
+          fontSize: 30,
+          fontWeight: FontWeight.bold,
+          letterSpacing: 2.0,
+          color: Colors.grey[600],
+        ),
+      ),
     ),
     floatingActionButton: FloatingActionButton(
+      onPressed: () {},
       child: Text('+'),
-      backgroundColor: Colors.orange[400],
-      
+      backgroundColor: Colors.red[400],
+
     ),
   ),
 ));
