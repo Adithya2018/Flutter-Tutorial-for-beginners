@@ -23,6 +23,7 @@ class Home extends StatelessWidget {
         child: RaisedButton(
           onPressed: () {},
           child: Text('Press Hard'),
+          color: Colors.lightGreen[200],
         ),
       ),
       floatingActionButton: FloatingActionButton(
