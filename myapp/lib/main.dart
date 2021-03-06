@@ -24,9 +24,29 @@ class Home extends StatelessWidget {
       //   child: Text('hello'),
       // ),
 
-      body: Padding(
-        padding: EdgeInsets.all(30.0),
-        child: Text('hello'),
+      // body: Padding(
+      //   padding: EdgeInsets.all(30.0),
+      //   child: Text('hello'),
+      // ),
+      body: Row(
+        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: <Widget> [
+          Text(
+              'Hello Bros'
+          ),
+          FlatButton(
+            onPressed: () {},
+            color: Colors.amber,
+            child: Text('Click me'),
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: EdgeInsets.all(30.0),
+            child: Text('Inside container'),
+          )
+        ],
       ),
 
       // Center(
