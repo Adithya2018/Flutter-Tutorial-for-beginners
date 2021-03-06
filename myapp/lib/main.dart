@@ -30,9 +30,51 @@ class Home extends StatelessWidget {
         //   image: NetworkImage('https://images.unsplash.com/photo-1614907301762-405163ba662f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80'),
         // ),
 
-        child: Image(
-          image: AssetImage('../assets/swim.jpg'),
+        // child: Image(
+        //   image: AssetImage('../assets/swim.jpg'),
+        // ),
+
+        // child: Image.asset('../assets/xps.jpg'),
+
+        // child: Image.network('https://images.unsplash.com/photo-1614958659970-5258ec563e55?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80'),
+
+        // child: Icon(
+        //   Icons.airport_shuttle,
+        //   color: Colors.redAccent,
+        //   size: 60,
+        // ),
+
+        // child: RaisedButton(
+        //   onPressed: () {},
+        //   child: Text('Click Me'),
+        //   color: Colors.redAccent,
+        // ),
+
+        // child: FlatButton(
+        //   onPressed: () {
+        //     print('you clicked me');
+        //   },
+        //   child: Text('Click Me'),
+        //   color: Colors.redAccent,
+        // ),
+
+        // child: RaisedButton.icon(
+        //   onPressed: () {},
+        //   icon: Icon(
+        //     Icons.mail,
+        //   ),
+        //   label: Text('Mail me'),
+        //   color: Colors.amber,
+        // ),
+
+        child: IconButton(
+          onPressed: () {
+            print('you clicked me');
+          },
+          icon: Icon(Icons.alternate_email),
+          color: Colors.amber,
         ),
+
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
