@@ -28,26 +28,150 @@ class Home extends StatelessWidget {
       //   padding: EdgeInsets.all(30.0),
       //   child: Text('hello'),
       // ),
-      body: Row(
-        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: <Widget> [
-          Text(
-              'Hello Bros'
+
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(20.0),
+                color: Colors.cyan,
+                child: Text('One'),
+              ),
+            ],
           ),
-          FlatButton(
-            onPressed: () {},
-            color: Colors.amber,
-            child: Text('Click me'),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(30.0),
+                color: Colors.pinkAccent,
+                child: Text('two'),
+              ),
+              Container(
+                padding: EdgeInsets.all(40.0),
+                color: Colors.amber,
+                child: Text('three'),
+              ),
+            ],
           ),
-          Container(
-            color: Colors.cyan,
-            padding: EdgeInsets.all(30.0),
-            child: Text('Inside container'),
-          )
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(20.0),
+                color: Colors.cyan,
+                child: Text('One'),
+              ),
+            ],
+          ),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(30.0),
+                color: Colors.pinkAccent,
+                child: Text('two'),
+              ),
+              Container(
+                padding: EdgeInsets.all(40.0),
+                color: Colors.amber,
+                child: Text('three'),
+              ),
+            ],
+          ),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(20.0),
+                color: Colors.cyan,
+                child: Text('One'),
+              ),
+            ],
+          ),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(30.0),
+                color: Colors.pinkAccent,
+                child: Text('two'),
+              ),
+              Container(
+                padding: EdgeInsets.all(40.0),
+                color: Colors.amber,
+                child: Text('three'),
+              ),
+            ],
+          ),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(20.0),
+                color: Colors.cyan,
+                child: Text('One'),
+              ),
+            ],
+          ),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(30.0),
+                color: Colors.pinkAccent,
+                child: Text('two'),
+              ),
+              Container(
+                padding: EdgeInsets.all(40.0),
+                color: Colors.amber,
+                child: Text('three'),
+              ),
+            ],
+          ),
+
         ],
       ),
+
+      // body: Row(
+      //   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //   mainAxisAlignment: MainAxisAlignment.spaceAround,
+      //   crossAxisAlignment: CrossAxisAlignment.end,
+      //   children: <Widget> [
+      //     Text(
+      //         'Hello Bros'
+      //     ),
+      //     FlatButton(
+      //       onPressed: () {},
+      //       color: Colors.amber,
+      //       child: Text('Click me'),
+      //     ),
+      //     Container(
+      //       color: Colors.cyan,
+      //       padding: EdgeInsets.all(30.0),
+      //       child: Text('Inside container'),
+      //     )
+      //   ],
+      // ),
 
       // Center(
       //   // child: Text(
