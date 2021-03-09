@@ -29,131 +29,131 @@ class Home extends StatelessWidget {
       //   child: Text('hello'),
       // ),
 
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  padding: EdgeInsets.all(20.0),
-                  color: Colors.cyan,
-                  child: Text('One'),
-                ),
-              ),
-            ],
-          ),
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(30.0),
-                color: Colors.pinkAccent,
-                child: Text('two'),
-              ),
-              Container(
-                padding: EdgeInsets.all(40.0),
-                color: Colors.amber,
-                child: Text('three'),
-              ),
-            ],
-          ),
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(20.0),
-                color: Colors.cyan,
-                child: Text('One'),
-              ),
-            ],
-          ),
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(30.0),
-                color: Colors.pinkAccent,
-                child: Text('two'),
-              ),
-              Container(
-                padding: EdgeInsets.all(40.0),
-                color: Colors.amber,
-                child: Text('three'),
-              ),
-            ],
-          ),
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(20.0),
-                color: Colors.cyan,
-                child: Text('One'),
-              ),
-            ],
-          ),
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(30.0),
-                color: Colors.pinkAccent,
-                child: Text('two'),
-              ),
-              Container(
-                padding: EdgeInsets.all(40.0),
-                color: Colors.amber,
-                child: Text('three'),
-              ),
-            ],
-          ),
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(20.0),
-                color: Colors.cyan,
-                child: Text('One'),
-              ),
-            ],
-          ),
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(30.0),
-                color: Colors.pinkAccent,
-                child: Text('two'),
-              ),
-              Container(
-                padding: EdgeInsets.all(40.0),
-                color: Colors.amber,
-                child: Text('three'),
-              ),
-            ],
-          ),
-
-        ],
-      ),
+      // body: Column(
+      //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //   crossAxisAlignment: CrossAxisAlignment.start,
+      //   children: <Widget>[
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Padding(
+      //           padding: const EdgeInsets.all(8.0),
+      //           child: Container(
+      //             padding: EdgeInsets.all(20.0),
+      //             color: Colors.cyan,
+      //             child: Text('One'),
+      //           ),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.center,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Container(
+      //           padding: EdgeInsets.all(30.0),
+      //           color: Colors.pinkAccent,
+      //           child: Text('two'),
+      //         ),
+      //         Container(
+      //           padding: EdgeInsets.all(40.0),
+      //           color: Colors.amber,
+      //           child: Text('three'),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Container(
+      //           padding: EdgeInsets.all(20.0),
+      //           color: Colors.cyan,
+      //           child: Text('One'),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.center,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Container(
+      //           padding: EdgeInsets.all(30.0),
+      //           color: Colors.pinkAccent,
+      //           child: Text('two'),
+      //         ),
+      //         Container(
+      //           padding: EdgeInsets.all(40.0),
+      //           color: Colors.amber,
+      //           child: Text('three'),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Container(
+      //           padding: EdgeInsets.all(20.0),
+      //           color: Colors.cyan,
+      //           child: Text('One'),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.center,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Container(
+      //           padding: EdgeInsets.all(30.0),
+      //           color: Colors.pinkAccent,
+      //           child: Text('two'),
+      //         ),
+      //         Container(
+      //           padding: EdgeInsets.all(40.0),
+      //           color: Colors.amber,
+      //           child: Text('three'),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Container(
+      //           padding: EdgeInsets.all(20.0),
+      //           color: Colors.cyan,
+      //           child: Text('One'),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //     Row(
+      //       mainAxisAlignment: MainAxisAlignment.center,
+      //       crossAxisAlignment: CrossAxisAlignment.end,
+      //       children: <Widget>[
+      //         Container(
+      //           padding: EdgeInsets.all(30.0),
+      //           color: Colors.pinkAccent,
+      //           child: Text('two'),
+      //         ),
+      //         Container(
+      //           padding: EdgeInsets.all(40.0),
+      //           color: Colors.amber,
+      //           child: Text('three'),
+      //         ),
+      //       ],
+      //     ),
+      //
+      //   ],
+      // ),
 
       // body: Row(
       //   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -240,6 +240,42 @@ class Home extends StatelessWidget {
       //
       //
       // ),
+
+      body: Row(
+        children: <Widget>[
+          Expanded(
+            child: Image.asset('assets/swim.jpg'),
+            flex: 3,
+          ),
+          Expanded(
+            flex: 3,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.lime,
+              child: Text('324')
+            ),
+          ),
+          Expanded(
+            flex: 2,
+            child: Container(
+                padding: EdgeInsets.all(30.0),
+                color: Colors.green,
+                child: Text('324')
+            ),
+          ),
+          Expanded(
+            flex: 3,
+            child: Container(
+                padding: EdgeInsets.all(30.0),
+                color: Colors.greenAccent,
+                child: Text('324')
+            ),
+          ),
+        ],
+      ),
+
+
+
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
         onPressed: () {},
